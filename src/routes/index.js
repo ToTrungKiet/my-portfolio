@@ -1,11 +1,8 @@
-import Home from '~/pages/Home';
-import About from '~/pages/About';
-
+import Singlepage from '~/pages/Singlepage';
 
 const publicRoutes = [
-  { path: '/', component: Home},
-  { path: '/about', component: About},
-];
+  { path: '/', component: Singlepage},
+]
 
 const privateRoutes = [];
 

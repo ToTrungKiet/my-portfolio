@@ -5,8 +5,8 @@ const cx = classNames.bind(styles);
 
 function Footer() {
   return (
-    <footer className={cx('wrapper')}>
-      <div className={cx('inner')}>Footer</div>
+     <footer className={cx('footer')}>
+      <div className={cx('container')}>Footer</div>
     </footer>
   );
 }
