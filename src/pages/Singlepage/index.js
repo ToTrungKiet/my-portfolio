@@ -1,6 +1,7 @@
 import Home from '~/components/Home';
 import About from '~/components/About';
 import Skills from '~/components/Skills';
+import Certificates from '~/components/Certificates';
 
 function Singlepage() {
     return ( 
@@ -8,6 +9,7 @@ function Singlepage() {
             <Home />
             <About />
             <Skills />
+            <Certificates />
         </>
     );
 }
