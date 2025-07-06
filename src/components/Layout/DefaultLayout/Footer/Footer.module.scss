@@ -1,0 +1,161 @@
+.footer {
+  height: 366px;
+  background-color: #101828;
+  padding: 48px 0;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+  }
+}
+
+.footer_content {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.footer-desciption {
+  width: 282px;
+  height: 185px;
+
+  p {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .footer-title {
+    display: flex;
+
+    i {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 24px;
+      margin: 0;
+    }
+  }
+
+  .footer-title-nav {
+    display: flex;
+
+    i {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+
+    h4 {
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+
+  .list-nav {
+    margin-top: 10px;
+
+    li {
+      margin-bottom: 4px;
+    }
+  }
+
+  .footer-socials-title {
+    display: flex;
+
+    i {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+
+    h4 {
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+
+  .link-socials {
+    display: flex;
+    margin-top: 12px;
+
+    .link-socials-box {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      background-color: #fff;
+      color: #333;
+      margin-right: 16px;
+      border-radius: 50%;
+      transition: background-color 0.3s ease, color 0.3s ease;
+
+      i {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 20px;
+        transition: color 0.3s ease;
+      }
+
+      &:hover {
+        background-color: #00bcd4;
+        color: #fff;
+
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .footer-university-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 20px;
+    }
+  }
+}
+
+.footer-line {
+  border: 1px solid var(--color-gray-700);
+  margin: 32px 0;
+}
+
+.developer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.PP-ToU-SM {
+  a {
+    margin-right: 12px;
+  }
+}
+
+.developer-release {
+}
